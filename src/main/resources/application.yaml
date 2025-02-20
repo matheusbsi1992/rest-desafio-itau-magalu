@@ -1,0 +1,27 @@
+server:
+  port: 9293
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/api_magazine_luiza_agendamento
+    username: postgres
+    password: postgres
+jpa:
+  open-in-view: false
+  hibernate:
+    ddl-auto: none
+    show-sql: true
+    format-sql: true
+flyway:
+  enabled: true
+  locations:
+    classpath: db/migration
+  baseline-on-migrate: true
+  schemas: magalu
+spring-doc:
+  pathsToMatch:
+    - /api/**/v1/**
+swagger-ui:
+  user-root-path: true
