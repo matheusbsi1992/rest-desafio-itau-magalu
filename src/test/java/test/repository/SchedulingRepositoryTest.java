@@ -77,9 +77,10 @@ public class SchedulingRepositoryTest {
 
         LocalDateTime localDateTime = LocalDateTime.parse(valueDateTime, simpleDateFormat);
 
-        Boolean valueStatus = schedulingRepository.returnSchedulingStatus(localDateTime);
+        boolean valueStatus = schedulingRepository.returnSchedulingStatus(localDateTime);
 
-        assertThat(valueStatus).isTrue();
+        //assertThat(valueStatus).isTrue();
+        Assertions.assertTrue(valueStatus);
     }
 
     @Test
