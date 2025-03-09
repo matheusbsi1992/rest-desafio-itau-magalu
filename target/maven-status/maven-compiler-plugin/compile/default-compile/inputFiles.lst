@@ -1,0 +1,8 @@
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/ApiNotificacaoAgendamentoApplication.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/ServletInitializer.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/controller/SchedulingController.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/dto/SchedulingDTO.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/mapper/SchedulingMapper.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/model/Scheduling.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/repository/SchedulingRepository.java
+/opt/projetossspring/api-notificacao-agendamento/src/main/java/br/com/desafio/magalu/service/SchedulingService.java

@@ -1,0 +1,9 @@
+br/com/desafio/magalu/mapper/SchedulingMapperImpl.class
+br/com/desafio/magalu/ServletInitializer.class
+br/com/desafio/magalu/model/Scheduling.class
+br/com/desafio/magalu/dto/SchedulingDTO.class
+br/com/desafio/magalu/mapper/SchedulingMapper.class
+br/com/desafio/magalu/controller/SchedulingController.class
+br/com/desafio/magalu/ApiNotificacaoAgendamentoApplication.class
+br/com/desafio/magalu/service/SchedulingService.class
+br/com/desafio/magalu/repository/SchedulingRepository.class
