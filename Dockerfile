@@ -10,6 +10,7 @@ RUN chmod -R 777 /opt/app
 # Cópia a pasta src para o caminho respectivo
 COPY  src /opt/app/src
 
+
 # Cópia a pasta de target
 COPY target /opt/app/target
 
